@@ -172,7 +172,13 @@ This is the new Razor Component source code:
 
 ## 6. Modify the NavMenu.razor component and add a new NavLink
 
-
+```
+<div class="nav-item px-3">
+     <NavLink class="nav-link" href="tests/buttons">
+         <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> BlazoriseButtons
+     </NavLink>
+</div>
+```
 
 ## 7. Run the application to validate the result
 
