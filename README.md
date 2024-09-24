@@ -182,3 +182,4 @@ This is the new Razor Component source code:
 
 ## 7. Run the application to validate the result
 
+![image](https://github.com/user-attachments/assets/ac943ec9-9b9a-4af9-9054-bbfd5f86ef67)
