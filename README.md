@@ -1,6 +1,10 @@
 # How to install Blazorise Components in your Blazor Web Application
 
-**Note:** For more information about this sample visit this URL: https://blazorise.com/docs/start
+**Note:** 
+
+For more information about this sample visit this URL: https://blazorise.com/docs/start
+
+Also visit this URL: https://bootstrap5demo.blazorise.com/tests/buttons
 
 ## 1. Load the Nuget packages
 
