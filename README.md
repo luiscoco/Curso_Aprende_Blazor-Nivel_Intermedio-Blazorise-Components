@@ -122,7 +122,53 @@ app.Run();
 
 ## 5. Create a new Razor Component to validate the Radzen installation
 
+We right on the **Pages** folder and we select the menu option **Add->Razor Component**
 
+![image](https://github.com/user-attachments/assets/00275830-0f8d-4d84-98cd-3d04df98217e)
+
+This is the new Razor Component source code:
+
+```razor
+@page "/tests/buttons"
+
+@* https://bootstrap5demo.blazorise.com/tests/buttons *@
+@* https://github.com/Megabit/Blazorise *@
+
+<Row>
+    <Column>
+        <Card Margin="Margin.Is4.OnY">
+            <CardHeader>
+                <CardTitle>Default Buttons</CardTitle>
+            </CardHeader>
+            <CardBody>
+                <CardText>Use the color enums like <code>Color.Primary</code></CardText>
+            </CardBody>
+            <CardBody>
+                <Button Color="Color.Primary" @onclick="OnClickButtonBlazorise">Primary</Button>
+                <Button Color="Color.Secondary">Secondary</Button>
+                <Button Color="Color.Success">Success</Button>
+                <Button>Default</Button>
+            </CardBody>
+        </Card>
+    </Column>
+</Row>
+
+<br />
+
+<br />
+
+<p>@message</p>
+
+@code {
+
+    public string message = "";
+
+    public void OnClickButtonBlazorise()
+    {
+        message = "Hello World!";
+    }
+}
+```
 
 ## 6. Modify the NavMenu.razor component and add a new NavLink
 
