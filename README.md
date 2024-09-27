@@ -6,6 +6,8 @@ For more information about this sample visit this URL: https://blazorise.com/doc
 
 Also visit this URL: https://bootstrap5demo.blazorise.com/tests/buttons
 
+![image](https://github.com/user-attachments/assets/023db11d-941e-4bdf-b50e-041c93b924fc)
+
 ## 1. Load the Nuget packages
 
 ![image](https://github.com/user-attachments/assets/86e463d1-df00-4c0b-bec2-8e88948184d8)
